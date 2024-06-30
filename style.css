@@ -20,23 +20,28 @@
     "image2 article2"
     "article3 image3";
   grid-area: main;
+  border: 4px solid red;
+  border-radius: 5px;
+  padding: 2em;
 }
 
-.art { grid-area: art; }
+.art { grid-area: art; padding: 2em; }
 
 .image1 { grid-area: image1; }
 
-.image2 { grid-area: image2; }
+.image2 { grid-area: image2;  }
 
-.article2 { grid-area: article2; }
+.article2 { grid-area: article2; padding: 2em;}
 
 .article3 { grid-area: article3; }
 
 .image3 { grid-area: image3; }
 
-.footer { grid-area: footer; }
+.footer { grid-area: footer; border: 4px solid red;
+  border-radius: 5px;}
 
-.nav { grid-area: nav; }
+.nav { grid-area: nav; border: 4px solid red;
+  border-radius: 5px; }
 
 .side1 { grid-area: side1; }
 
@@ -54,11 +59,18 @@ html, body , .container {
   list-style: none;
 }
 
-.redes, .footerElements{
+.footerElements{
   display: flex;
   justify-content: space-around;
   list-style: none;
 }
+
+.redes{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
 
 article{
   align-items: center;
@@ -69,13 +81,16 @@ img{
   width: 100%;
   align-items: center;
   margin-top: 2em;
+  border: 4px solid red;
+  border-radius: 5px;
 }
 
-/* For presentation only, no need to copy the code below */
+/* For presentation only, no need to copy the code below
 
 .container * {
   border: 1px solid red;
   position: relative;
+  
 }
 
 .container *:after {
@@ -90,3 +105,6 @@ img{
   justify-content: center;
 }
 
+*/
+
+ 
