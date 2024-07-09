@@ -9,7 +9,7 @@
 }
 
 html{
-  background-color: black;
+  background-color: #eaa5ff;
 }
 
 .logoTitle{
@@ -50,7 +50,7 @@ html{
   justify-content: center; /* centers items horizontally */
   align-items: center; /* centers items vertically */
   font-size: 1em;
-  background-color: rgb(250, 246, 24);
+  background-color: #f8f8d9;
 }
 
 .art { grid-area: art; }
@@ -66,12 +66,12 @@ html{
 .image3 { grid-area: image3; }
 
 .footer { grid-area: footer; border: 1px solid black;
-  border-radius: 5px; box-shadow: 5px 5px 5px black; background-color: rgb(250, 246, 24);} 
+  border-radius: 5px; box-shadow: 5px 5px 5px black; background-color: #9af8ff;} 
 
 .nav { grid-area: nav; border: 1px solid black;
   border-radius: 5px;
   box-shadow: 5px 5px 5px black;
-  background-color: rgb(250, 246, 24);
+  background-color: #9af8ff;
   padding: 10px 0px 0px 0px;
 }
 
@@ -318,13 +318,12 @@ color: #e0efff;
     "extraSide1 contactArea extraSide2";
   grid-area: main;
   border: 1px solid black;
-  border-radius: 5px;
   padding: 2em;
   box-shadow: 5px 5px 5px black;
   justify-content: center; /* centers items horizontally */
   align-items: center; /* centers items vertically */
   font-size: 1em;
-  background-color: rgb(250, 246, 24);
+  background-color: #9af8ff;
 }
 
 
@@ -346,9 +345,21 @@ form{
   background-color: grey;
   padding: 5px;
   border: 2px solid white;
-  border-radius: 10px;
+  
 }
 
+input, textarea{
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
 
 
 
