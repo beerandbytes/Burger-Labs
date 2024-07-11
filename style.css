@@ -336,9 +336,9 @@ color: #e0efff;
 
 fieldset , h4{
   border: none ;
-  margin: 0 0 10px;
+  margin: 0px 0px 10px 0px;
   min-width: 100%;
-  padding: 5px;
+  padding: 10px 0px 0px 0px;
   width: 100%;
   align-items: center;
   display: flex;
@@ -349,14 +349,16 @@ fieldset , h4{
 
 form{
  
-  background-color: grey;
-  padding: 5px;
+  background-color: rgb(180, 137, 184);
+  padding: 5px 5px 5px 10px;
   border: 2px solid white;
+  border-radius: 5px;
+  margin: 0px 0px 20px 0px;
   
 }
 
 input, textarea{
-  background-color: #303245;
+  background-color: #f8e1b5;
   border-radius: 12px;
   border: 0;
   box-sizing: border-box;
