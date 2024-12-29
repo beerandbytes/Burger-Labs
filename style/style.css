@@ -50,8 +50,8 @@ body .container {
 
 
 .container .sub-container .nav .menu>li {
-  border: 3px solid black;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
   background-color: rgb(250, 250, 127);
   padding: 10px;
   font-weight: bold;
@@ -157,7 +157,8 @@ body .container {
   align-items: flex-start;
   /* centers items vertically */
   font-size: 1em;
-  background-color: rgb(250, 246, 24);
+  background-color: #f8f8d9;
+ 
 }
 
 .productMain .product {
@@ -171,7 +172,7 @@ body .container {
 .productMain .product .card {
   background-color: rgb(22, 21, 21);
   border: 1px solid #ffffff;
-  border-radius: 12px;
+  border-radius: 5px;
   max-width: 300px;
   text-align: center;
   width: 100%;
@@ -190,7 +191,6 @@ body .container {
 .cardElements .tag {
   padding: 4px 8px;
   border: 1px solid #e5eaed;
-
   border-radius: 50px;
   font-size: 12px;
   font-weight: 600;
@@ -253,7 +253,8 @@ body .container {
   justify-content: center;
   align-items: center;
   font-size: 1em;
-  background-color: #9af8ff;
+  background-color: #f8f8d9;
+  
 }
 
 .contactMain .contactArea {
@@ -268,10 +269,12 @@ body .container {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
+  
 }
 
 .contactArea fieldset {
   margin-bottom: 10px;
+  border: none;
 
 }
 
@@ -283,13 +286,14 @@ form {
   border-radius: 5px;
   margin: 0px 0px 20px 0px;
 
+
 }
 
 input,
 textarea {
-  background-color: #f8e1b5;
+  background-color: white;
   border-radius: 12px;
-  border: 0;
+  border: none;
   box-sizing: border-box;
   color: #0c0c0c;
   font-size: 18px;
