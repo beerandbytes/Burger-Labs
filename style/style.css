@@ -45,6 +45,7 @@ body .container {
   display: flex;
   align-items: center;
   gap: 30px;
+  margin-bottom: 2px;
 }
 
 .container .sub-container .nav-image{
@@ -60,6 +61,7 @@ body .container {
   list-style: none;
   padding: 10px;
   gap: 16px;
+  
 }
 
 
@@ -132,10 +134,9 @@ body .container {
   
   width: 100%;
   max-width: 1200px;
-
+  margin-top: 2px;
   background-color: #ff3a3a;
-  bottom: 0;
-  position: absolute;
+  position: relative;
 
 }
 
