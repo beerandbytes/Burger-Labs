@@ -71,17 +71,19 @@ body .container {
   background-color: #ffa896;
   padding: 10px;
   font-weight: bold;
+  
 
 }
 
 .container .sub-container .nav .menu>li a {
   text-decoration: none;
   transition: color 0.3s ease;
+  color: black;
 
 }
 
 .container .sub-container .nav .menu>li a:hover {
-  color: rgb(22, 21, 21);
+  color: rgb(255, 255, 255);
 }
 
 .main {
@@ -111,6 +113,21 @@ body .container {
   width: 70%;
 
 }
+
+.content .aviso {
+  text-align: center;
+  
+
+}
+
+
+
+.content .aviso .listAviso {
+ list-style: none;
+
+
+}
+
 
 .content .image {
   width: 30%;
@@ -154,6 +171,19 @@ body .container {
   justify-content: space-between;
 
 }
+
+
+.footer .footerElements .enlaceAviso a{
+  text-decoration: none;
+  transition: color 0.3s ease;
+  color: black;
+}
+
+.footer .footerElements .enlaceAviso a:hover{
+  color: rgb(255, 255, 255);
+}
+
+
 
 .redes li {
   display: inline-block;
