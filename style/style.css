@@ -277,7 +277,9 @@ body .container {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
+  list-style: none;
+  padding: 5px;
+ 
 }
 
 /* Style button element */
