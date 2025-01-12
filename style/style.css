@@ -142,6 +142,13 @@ body .container {
 }
 
 
+.content .text a{
+
+  text-decoration: none;
+}
+
+
+
 .footer {
   /*width: 1200px;*/
   
@@ -212,7 +219,7 @@ body .container {
   align-items: flex-start;
   /* centers items vertically */
   font-size: 1em;
-  background-color: #f8f8d9;
+  background-color: #dab0c0;
  
 }
 
@@ -231,6 +238,7 @@ body .container {
   max-width: 300px;
   text-align: center;
   width: 100%;
+  border: solid 5px white;
 }
 
 .productMain .product .card img {
