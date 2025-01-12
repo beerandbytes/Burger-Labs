@@ -318,7 +318,7 @@ body .container {
   justify-content: center;
   align-items: center;
   font-size: 1em;
-  background-color: #f8f8d9;
+  background-color: #ffffff;
   
 }
 
@@ -376,11 +376,17 @@ body .container {
   background-color: #81eaee;
   border-radius: 5px;
   border: none;
-  font-weight: bolder
-
+  font-weight: bolder;
+  transition: color 0.3s ease;
 }
 
 
+.contactArea button:hover{
+  color: white;
+}
+
+
+/* aqui van los parametros para hacer la pagina adaptable a la vista de la mayoria de las pantallas de diferentes dispositivos        */
 
 @media (max-width: 768px) {
 
