@@ -8,7 +8,6 @@
   <link rel="icon" type="image/x-icon" href="/assets/burger-removebg-preview.png">
   <link rel="stylesheet" href="./style/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body>
@@ -34,16 +33,16 @@
               <h4>Rellena el siguiente formulario de contacto</h4>
               <fieldset>
                 <label for="name">Por favor introduce tu nombre:</label>
-                <input placeholder="Tu nombre" type="text" tabindex="1" required autofocus>
+                <input placeholder="Tu nombre" id="name" type="text" tabindex="1" required autofocus>
 
                 <label for="email">Por favor introduce tu e-mail:</label>
-                <input placeholder="Tu dirección de correo" type="email" tabindex="2" required>
+                <input placeholder="Tu dirección de correo"  id="email" type="email" tabindex="2" required>
 
                 <label for="phone">Por favor introduce tu numero de telefono:</label>
-                <input placeholder="Tu número de telefono" type="tel" tabindex="3" required>
+                <input placeholder="Tu número de telefono" id="phone" type="tel" tabindex="3" required>
 
                 <label for="message">Por favor introduce tu mensaje:</label>
-                <textarea placeholder="Escribe tu mensaje" tabindex="5" required></textarea>
+                <textarea placeholder="Escribe tu mensaje" id="message"  tabindex="5" required></textarea>
               </fieldset>
               <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
             </form>
