@@ -12,3 +12,4 @@ This project is designed to help beginners learn how to set up a simple website 
 - [Form input]
   
 
+![](https://github.com/beerandbytes/Burger-Labs/blob/main/assets/website%20showcase.gif)
