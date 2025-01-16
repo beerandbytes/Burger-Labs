@@ -22,13 +22,13 @@
          
           <li><a href="../index.html">Inicio</a></li>
           <li><a href="./productos.html">Productos</a></li>
-          <li><a href="./contact.html">Contacto</a></li>
+          <li class="active"><a href="./contact.html">Contacto</a></li>
         </ul>
       </nav>
 
       <div class="contactMain">
         <div class="contactArea">
-          <div class="subContainerContactArea">
+         
             <form id="contact" action="_blank" method="post">
               <h4>Rellena el siguiente formulario de contacto</h4>
               <fieldset>
@@ -43,10 +43,16 @@
 
                 <label for="message">Por favor introduce tu mensaje:</label>
                 <textarea placeholder="Escribe tu mensaje" id="message"  tabindex="5" required></textarea>
+                 
               </fieldset>
+              <div>
+              <label for="policy">I agree to the <a href="your-policy-url">terms and conditions</a> </label>
+              <input type="checkbox" id="policy" name="policy" required>
+              
+              </div>
               <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
             </form>
-          </div>
+          
         </div>
       </div>
 
@@ -61,10 +67,10 @@
           <li>&#169;Burger Labs 2024</li>
           <li>
             <ul class="redes">
-              <li><a href="#" target="_self"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" target="_self"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#" target="_self"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="#" target="_self"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.facebook.com/" ><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://x.com/" ><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://linkedin.com" ><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://instagram.com" ><i class="fa fa-instagram"></i></a></li>
             </ul>
           </li>
           <li class="enlaceAviso"><a href="./avisolegal.html">Aviso Legal</a></li>
