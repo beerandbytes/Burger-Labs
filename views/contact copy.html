@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burger Labs - Contacto</title>
+  <link rel="icon" type="image/x-icon" href="../images/burger-removebg-preview.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="sub-container">
+
+      <nav class="nav">
+        <div class="nav-image">
+          <img src="../images/burger-removebg-preview.png" alt="logo">
+        </div>
+        <ul class="menu">
+         
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./productos.html">Productos</a></li>
+          <li class="active"><a href="./contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="contactMain">
+        <div class="contactArea">
+         
+            <form id="contact" action="_blank" method="post">
+              <h4>Rellena el siguiente formulario de contacto</h4>
+              <fieldset>
+                <label for="name">Por favor introduce tu nombre:</label>
+                <input placeholder="Tu nombre" id="name" type="text" tabindex="1" required autofocus>
+
+                <label for="email">Por favor introduce tu e-mail:</label>
+                <input placeholder="Tu dirección de correo"  id="email" type="email" tabindex="2" required>
+
+                <label for="phone">Por favor introduce tu numero de telefono:</label>
+                <input placeholder="Tu número de telefono" id="phone" type="tel" tabindex="3" required>
+
+                <label for="message">Por favor introduce tu mensaje:</label>
+                <textarea placeholder="Escribe tu mensaje" id="message"  tabindex="5" required></textarea>
+                
+              </fieldset>
+              <div class="checkboxSection">
+
+                <input type="checkbox" id="policy" name="policy" required class="checkSquare">
+                <label for="policy" class="agreementLabel">I agree to the <a href="your-policy-url">terms and conditions</a></label>
+              
+    
+              </div>
+              <div class="sendButton" >
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" class="sendButton">Enviar</button>
+
+              </div>
+              
+            </form>
+          
+        </div>
+      </div>
+
+ 
+
+
+    </div>
+
+    <div class="footer">
+      <footer>
+        <ul class="footerElements">
+          <li>&#169;Burger Labs 2025</li>
+          <li>
+            <ul class="redes">
+              <li><a href="https://www.facebook.com/" ><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://x.com/" ><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://linkedin.com" ><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://instagram.com" ><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </li>
+          <li class="enlaceAviso"><a href="./avisolegal.html">Aviso Legal</a></li>
+        </ul>
+      </footer>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
