@@ -43,14 +43,20 @@
 
                 <label for="message">Por favor introduce tu mensaje:</label>
                 <textarea placeholder="Escribe tu mensaje" id="message"  tabindex="5" required></textarea>
-                 
+                
               </fieldset>
-              <div>
-              <label for="policy">I agree to the <a href="your-policy-url">terms and conditions</a> </label>
-              <input type="checkbox" id="policy" name="policy" required>
+              <div class="checkboxSection">
+
+                <input type="checkbox" id="policy" name="policy" required class="checkSquare">
+                <label for="policy" class="agreementLabel">I agree to the <a href="your-policy-url">terms and conditions</a></label>
               
+    
               </div>
-              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+              <div class="sendButton" >
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" class="sendButton">Enviar</button>
+
+              </div>
+              
             </form>
           
         </div>

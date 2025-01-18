@@ -398,6 +398,33 @@ body .container {
   color: white;
 }
 
+.contactArea .checkboxSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+
+.contactArea .checkboxSection .checkSquare{
+  width: 30px;
+  height: 20px;
+  margin-right: 10px;
+  accent-color: purple;
+  cursor: pointer;
+  
+ 
+}
+
+
+.contactArea  .sendButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
 
 /* aqui van los parametros para hacer la pagina adaptable a la vista de la mayoria de las pantallas de diferentes dispositivos        */
 
