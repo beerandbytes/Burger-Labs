@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
 
 
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +26,7 @@ body .container {
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
-  position: relative;
+  
 }
 
 .container .sub-container {
@@ -102,6 +105,8 @@ body .container {
   background-color: #dab0c0;
   font-size: 1em;
   justify-content: space-between;
+  min-height: 100vh;
+  
 }
 
 .content {
@@ -113,6 +118,7 @@ body .container {
   padding: 1em;
   width: 100%;
   gap: 1em;
+  
 }
 
 .content .text {
@@ -171,6 +177,7 @@ body .container {
   max-width: 1200px;
   margin-top: auto;
   background-color: #ff3a3a;
+  
   
 
 }
@@ -231,7 +238,7 @@ body .container {
   /* centers items vertically */
   font-size: 1em;
   background-color: #dab0c0;
- 
+  min-height: 100vh;
 }
 
 .productMain .product {
@@ -337,7 +344,7 @@ body .container {
 .contactMain .contactArea {
   max-width: 800px;
   flex: 1 1 600px;
-  
+  min-height: 100vh;
 }
 
 
