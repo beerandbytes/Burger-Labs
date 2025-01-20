@@ -348,7 +348,7 @@ body .container {
   justify-content: center;
   align-items: center;
   font-size: 1em;
-  background-color: #ffffff;
+  background-color: #b5f7b8;
   
 }
 
@@ -374,8 +374,9 @@ body .container {
 }
 
 .contactArea form {
-  background-color: rgb(180, 137, 184);
+  background-color: rgb(255, 104, 98);
   padding: 5px 5px 5px 10px;
+  border: solid 3px white;
   border-radius: 5px;
   margin: 0px 0px 20px 0px;
 
@@ -385,9 +386,10 @@ body .container {
 .contactArea input, 
 .contactArea textarea {
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   margin-bottom: 10px;
+  margin-top: 5px;
   box-sizing: border-box;
   color: #0c0c0c;
   font-size: 18px;
@@ -397,9 +399,6 @@ body .container {
   width: 100%;
 }
 
-.contactArea label {
-  padding-bottom: 10px;
-}
 
 .contactArea button{
   padding: 8px;
@@ -443,23 +442,36 @@ body .container {
 }
 
 
+.content .text .infoRestaurante{
+
+  text-align: center;
+}
+
+
+.content .image .maps{
+
+  border: solid 3px white;
+  border-radius: 4px;
+}
+
+
+
+
 /* aqui van los parametros para hacer la pagina adaptable a la vista de la mayoria de las pantallas de diferentes dispositivos   */
 
 @media (max-width: 768px) {
 
-  .main {
-    border-radius: 0px;
-  }
+  
 
   .container .sub-container .nav {
-    border-radius: 0px;
+    
+    gap: 0px;
   }
 
   .container .sub-container .nav .menu li {
     font-size: 12px;
-    padding: 0;
-    background-color: transparent;
-    border: none;
+    padding: 3px;
+    background-color: #ffa896;
   }
 
   .content {
