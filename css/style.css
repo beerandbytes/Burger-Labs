@@ -1,8 +1,12 @@
+
+
+/* Importamos las fuentes que queremos usar en caso de no querer descargarlas */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
 
 
 
+/* Estilos globales para las partes más altas de la jerarquía, HTML, BODY , CONTENEDOR , etc*/
 
 
 * {
@@ -37,6 +41,8 @@ body .container {
   
   
 }
+
+/* A fin de no perder el escalonado de las clases nombro las clases en orden como si fueran "breadcrumbs" para acordarme del orden.*/
 
 .container .sub-container .nav {
   width: 100%;
@@ -95,6 +101,10 @@ body .container {
   color: rgb(255, 255, 255);
 }
 
+
+
+/* Estilos para el contenido de las páginas Index y Contacto*/
+
 .main {
   display: flex;
   flex-wrap: wrap;
@@ -133,6 +143,9 @@ body .container {
 }
 
 
+/* Estilos para el contenido de la página aviso legal*/
+
+
 .content .aviso {
   text-align: center;
   line-height: 2;
@@ -145,6 +158,9 @@ body .container {
 
 
 }
+
+
+/* Estilos para redimensionar las imagénes en las páginas producto y Index*/
 
 
 .content .image {
@@ -168,6 +184,7 @@ body .container {
 }
 
 
+/* Estilos para la sección del footer*/
 
 .footer {
   border: 1px solid black;
@@ -221,7 +238,7 @@ body .container {
 }
 
 
-/* Producto */
+/* Estilos para la sección de productos dentro de la página de productos*/
 
 
 .productMain {
@@ -233,9 +250,7 @@ body .container {
   padding: 3em;
   box-shadow: 5px 5px 5px black;
   justify-content: center;
-  /* centers items horizontally */
   align-items: flex-start;
-  /* centers items vertically */
   font-size: 1em;
   background-color: #dab0c0;
   min-height: 100vh;
@@ -265,11 +280,9 @@ body .container {
 }
 
 .product .card .cardElements {
-  /* Add space around the details */
   padding: 16px 8px 8px 8px;
 }
 
-/* Style div elements that have class equal to tag */
 .cardElements .tag {
   padding: 4px 8px;
   border: 1px solid #e5eaed;
@@ -279,7 +292,7 @@ body .container {
   color: #ffffff;
 }
 
-/* Style div elements that have class equal to name */
+
 .cardElements .name {
   font-size: 24px;
   font-weight: 600;
@@ -287,7 +300,6 @@ body .container {
   margin-top: 16px;
 }
 
-/* Style p element */
 .cardElements .ingredientsList {
   font-size: 14px;
   color: #ffffff;
@@ -301,7 +313,7 @@ body .container {
  
 }
 
-/* Style button element */
+
 .cardElements .productButton {
   border: none;
   padding: 12px 24px;
@@ -314,7 +326,6 @@ body .container {
 }
 
 
-/* Add style when button is focused or hovered */
 .cardElements .productButton:focus,
 .cardElements .productButton:hover {
   background-color: #fa4011;
@@ -324,7 +335,7 @@ body .container {
 
 
 
-/*  contact area details   */
+/* Estilos para la sección de contacto dentro de la página de presupuestos*/
 
 
 .contactMain {
@@ -432,7 +443,7 @@ body .container {
 }
 
 
-/* aqui van los parametros para hacer la pagina adaptable a la vista de la mayoria de las pantallas de diferentes dispositivos        */
+/* aqui van los parametros para hacer la pagina adaptable a la vista de la mayoria de las pantallas de diferentes dispositivos   */
 
 @media (max-width: 768px) {
 
